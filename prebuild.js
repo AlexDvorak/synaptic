@@ -1,5 +1,6 @@
 // update license year and version
 var fs = require('fs')
+var numjs = require('numjs')
 module.exports = function() {
   var year = (new Date).getFullYear()
   var version = require('./package.json').version
